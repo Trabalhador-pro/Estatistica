@@ -11,8 +11,6 @@ Conclusão desta etapa
 A análise aponta diferenças consistentes entre os grupos, principalmente em IMC, pressão alta, colesterol alto, problemas físicos, saúde geral e idade. No caso do IMC, a diferença continua estatisticamente significativa mesmo após a retirada dos outliers.
 O próximo cuidado é separar significância estatística de importância prática. Como a amostra é grande, valores-p muito pequenos podem aparecer mesmo para diferenças pequenas; por isso, medidas de tamanho de efeito seriam um complemento importante em uma próxima etapa.
 
-
-
 ## Organização do projeto
 
 ```
@@ -41,10 +39,10 @@ O próximo cuidado é separar significância estatística de importância práti
 
 ## Configuração do ambiente
 
-1. Faça o clone do repositório que será criado a partir deste modelo.
+1. Faça o clone do repositório.
 
     ```bash
-    git clone ENDERECO_DO_REPOSITORIO
+    git clone git@github.com:Trabalhador-pro/Estatistica.git
     ```
 
 2. Crie um ambiente virtual para o seu projeto utilizando o gerenciador de ambientes de sua preferência.
@@ -52,7 +50,7 @@ O próximo cuidado é separar significância estatística de importância práti
     a. Caso esteja utilizando o `conda`, exporte as dependências do ambiente para o arquivo `ambiente.yml`:
 
       ```bash
-      conda env export > ambiente.yml
+      conda env creat -f > ambiente.yml -- name estatistica 
       ```
 
 ## um pouco mais sobre a base
