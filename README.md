@@ -1,5 +1,15 @@
 # analise estatistica de diabetes 
-
+Resposta: Os percentuais reforçam os padrões vistos nos gráficos. Alguns exemplos:
+- Pressão alta: 75,27% no grupo com diabetes contra 37,42% no grupo sem diabetes.
+- Colesterol alto: 67,01% contra 38,13%.
+- Problema cardíaco: 22,29% contra 7,27%.
+- Dificuldade para andar: 37,12% contra 13,42%.
+- Atividade física: 63,05% no grupo com diabetes contra 77,55% no grupo sem diabetes.
+- Saúde geral aceitável ou ruim: 40,65% no grupo com diabetes contra 13,42% no grupo sem diabetes.
+Esses resultados mostram associações dentro desta amostra. Eles não significam que uma característica, isoladamente, cause diabetes.
+Conclusão desta etapa
+A análise aponta diferenças consistentes entre os grupos, principalmente em IMC, pressão alta, colesterol alto, problemas físicos, saúde geral e idade. No caso do IMC, a diferença continua estatisticamente significativa mesmo após a retirada dos outliers.
+O próximo cuidado é separar significância estatística de importância prática. Como a amostra é grande, valores-p muito pequenos podem aparecer mesmo para diferenças pequenas; por isso, medidas de tamanho de efeito seriam um complemento importante em uma próxima etapa.
 
 
 
